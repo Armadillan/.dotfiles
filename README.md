@@ -1,5 +1,6 @@
 # .dotfiles
 My Linux configuration files.
+
 Made for Arch Linux with KDE Plasma. Might break (things) on other setups.
 ## Installation
 ```
