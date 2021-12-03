@@ -8,6 +8,10 @@ Switch keyboard layout to Swedish=none,none,Switch keyboard layout to Swedish
 Switch to Next Keyboard Layout=Ctrl+Alt+K,none,Switch to Next Keyboard Layout
 _k_friendly_name=Keyboard Layout Switcher
 
+[bitwarden.desktop]
+_k_friendly_name=Bitwarden
+_launch=Meta+P,,Bitwarden
+
 [firefox.desktop]
 _k_friendly_name=Firefox
 _launch=Meta+B,,Firefox
@@ -27,7 +31,7 @@ _k_friendly_name=Touchpad
 [kded5]
 Show System Activity=Ctrl+Esc,Ctrl+Esc,Show System Activity
 _k_friendly_name=KDE Daemon
-display=Display\tMeta+P,Display\tMeta+P,Switch Display
+display=Display,Display\tMeta+P,Switch Display
 
 [khotkeys]
 _k_friendly_name=Custom Shortcuts Service
