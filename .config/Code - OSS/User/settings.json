@@ -1,0 +1,15 @@
+{
+    "window.titleBarStyle": "custom",    
+    "workbench.colorTheme": "Default Dark+",
+    "python.defaultInterpreterPath": "/home/antoni/miniconda3/envs/py310/bin/python",
+    "terminal.integrated.defaultProfile.linux": "zsh",
+    "terminal.integrated.inheritEnv": false,
+    "files.trimFinalNewlines": true,
+    "editor.rulers": [
+    80,
+    ],
+    "editor.overviewRulerBorder": false,
+    "terminal.integrated.fontFamily": "MesloLGS NF",
+    "editor.multiCursorModifier": "ctrlCmd",
+    
+}
