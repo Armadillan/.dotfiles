@@ -1,0 +1,15 @@
+[user]
+	name = Armadillan
+	email = 74256936+Armadillan@users.noreply.github.com
+[init]
+	defaultBranch = main
+[credential]
+	helper = cache
+	credentialStore = gpg
+	helper = 
+	helper = /usr/local/bin/git-credential-manager-core
+
+[core]
+	editor = nano
+[credential "https://dev.azure.com"]
+	useHttpPath = true
