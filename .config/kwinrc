@@ -13,6 +13,9 @@ Rows=1
 [Effect-DimInactive]
 Strength=5
 
+[Effect-MouseMark]
+Color=200,51,6
+
 [Effect-PresentWindows]
 BorderActivateAll=9
 
