@@ -20,9 +20,8 @@ Color=200,51,6
 BorderActivateAll=9
 
 [Effect-kwin4_effect_translucency]
-Inactive=93
 IndividualMenuConfig=true
-MoveResize=89
+MoveResize=87
 PopupMenus=91
 
 [NightColor]
@@ -34,7 +33,10 @@ blurEnabled=true
 diminactiveEnabled=true
 kwin4_effect_dimscreenEnabled=true
 kwin4_effect_translucencyEnabled=true
+minimizeallEnabled=true
 mousemarkEnabled=true
+synchronizeskipswitcherEnabled=false
+videowallEnabled=false
 zoomEnabled=false
 
 [TabBox]
