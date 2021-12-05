@@ -137,3 +137,5 @@ alias hhc="hitchhiker_cow"
 alias sudo="doas"
 alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 alias la="ls -a"
+alias vim="nvim"
+alias vi="nvim"
