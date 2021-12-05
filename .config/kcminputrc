@@ -7,6 +7,15 @@ NumLock=2
 RepeatDelay=600
 RepeatRate=25
 
+[Libinput][1267][12584][ELAN1301:00 04F3:3128 Mouse]
+NaturalScroll=true
+PointerAccelerationProfile=1
+
+[Libinput][1267][12584][ELAN1301:00 04F3:3128 Touchpad]
+ClickMethod=2
+NaturalScroll=true
+TapToClick=true
+
 [Mouse]
 XLbInptAccelProfileFlat=true
 XLbInptNaturalScroll=true
