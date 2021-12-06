@@ -15,6 +15,9 @@ suspendType=1
 [Battery]
 icon=battery-060
 
+[Battery][BrightnessControl]
+value=15
+
 [Battery][DPMSControl]
 idleTime=300
 lockBeforeTurnOff=0
