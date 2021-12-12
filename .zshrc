@@ -142,3 +142,7 @@ alias vi="nvim"
 alias ug="usbguard"
 alias ugl="usbguard list-devices"
 alias uga="usbguard allow-device"
+
+alias rr="ranger"
+
+export VISUAL=nvim
