@@ -142,7 +142,7 @@ alias vi="nvim"
 alias ug="usbguard"
 alias ugl="usbguard list-devices"
 alias uga="usbguard allow-device"
-
+alias icat="kitty +kitten icat"
 alias rr="ranger"
 
 export VISUAL=nvim
