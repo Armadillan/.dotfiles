@@ -132,9 +132,11 @@ fi
 unset __conda_setup
 # <<< conda initialize <<<
 
+alias doas="doas "
+alias sudo="doas "
+
 alias hh="hitchhiker"
 alias hhc="hitchhiker_cow"
-alias sudo="doas"
 alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 alias la="ls -A"
 alias vim="nvim"
