@@ -133,17 +133,25 @@ unset __conda_setup
 # <<< conda initialize <<<
 
 alias doas="doas "
-alias sudo="doas "
+alias sudo="sudo "
+
+alias update-grub="sudo grub-mkconfig -o /boot/grub/grub.cfg"
 
 alias hh="hitchhiker"
 alias hhc="hitchhiker_cow"
+
 alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
+
 alias la="ls -A"
+alias c="clear"
+
 alias vim="nvim"
 alias vi="nvim"
+
 alias ug="usbguard"
 alias ugl="usbguard list-devices"
 alias uga="usbguard allow-device"
+
 alias icat="kitty +kitten icat"
 alias rr="ranger"
 
