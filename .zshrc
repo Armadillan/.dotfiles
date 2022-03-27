@@ -54,7 +54,7 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 # You can also set it to another string to have that shown instead of the default red dots.
 # e.g. COMPLETION_WAITING_DOTS="%F{yellow}waiting...%f"
 # Caution: this setting can cause issues with multiline prompts in zsh < 5.7.1 (see #5765)
-# COMPLETION_WAITING_DOTS="true"
+ COMPLETION_WAITING_DOTS="true"
 
 # Uncomment the following line if you want to disable marking untracked files
 # under VCS as dirty. This makes repository status check for large repositories
@@ -84,6 +84,16 @@ plugins=(
   safe-paste
   zsh-autosuggestions
   hitchhiker
+  z
+  last-working-dir
+  thefuck
+  web-search
+  zsh-interactive-cd
+  colorize
+  command-not-found
+  copypath
+  copyfile
+  git-escape-magic
   )
 
 source $ZSH/oh-my-zsh.sh
@@ -93,7 +103,7 @@ source $ZSH/oh-my-zsh.sh
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
-# export LANG=en_US.UTF-8
+export LANG=en_US.UTF-8
 
 # Preferred editor for local and remote sessions
 # if [[ -n $SSH_CONNECTION ]]; then
@@ -111,7 +121,7 @@ source $ZSH/oh-my-zsh.sh
 # For a full list of active aliases, run `alias`.
 #
 # Example aliases
-# alias zshconfig="mate ~/.zshrc"
+alias zshrc="$EDITOR ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
