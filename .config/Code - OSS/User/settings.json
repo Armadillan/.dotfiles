@@ -11,5 +11,11 @@
     "editor.overviewRulerBorder": false,
     "terminal.integrated.fontFamily": "MesloLGS NF",
     "editor.multiCursorModifier": "ctrlCmd",
+    "editor.largeFileOptimizations": false,
+    "workbench.editorAssociations": {
+        "*.txt": "default",
+        "*.bin": "hexEditor.hexedit"
+    },
+    "telemetry.telemetryLevel": "off",
     
 }
