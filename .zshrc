@@ -103,7 +103,7 @@ source $ZSH/oh-my-zsh.sh
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
-export LANG=en_US.UTF-8
+export LANG=en_SE.UTF-8
 
 # Preferred editor for local and remote sessions
 # if [[ -n $SSH_CONNECTION ]]; then
@@ -121,7 +121,7 @@ export LANG=en_US.UTF-8
 # For a full list of active aliases, run `alias`.
 #
 # Example aliases
-alias zshrc="$EDITOR ~/.zshrc"
+# alias zshrc="$EDITOR ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
@@ -142,6 +142,11 @@ fi
 unset __conda_setup
 # <<< conda initialize <<<
 
+
+export VISUAL=nvim
+export EDITOR=nvim
+
+
 alias doas="doas "
 alias sudo="sudo "
 
@@ -158,6 +163,7 @@ alias c="clear"
 
 alias vim="nvim"
 alias vi="nvim"
+alias zshrc="$EDITOR ~/.zshrc"
 
 alias ug="sudo usbguard"
 alias ugl="sudo usbguard list-devices"
@@ -165,6 +171,3 @@ alias uga="sudo usbguard allow-device"
 
 alias icat="kitty +kitten icat"
 alias rr="ranger"
-
-export VISUAL=nvim
-export EDITOR=nvim
