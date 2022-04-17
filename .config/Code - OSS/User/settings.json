@@ -17,5 +17,7 @@
         "*.bin": "hexEditor.hexedit"
     },
     "telemetry.telemetryLevel": "off",
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
     
 }
