@@ -154,6 +154,8 @@ export EDITOR=nvim
 alias doas="doas "
 alias sudo="sudo "
 
+alias please="sudo "
+
 alias update-grub="sudo grub-mkconfig -o /boot/grub/grub.cfg"
 
 alias hh="hitchhiker"
