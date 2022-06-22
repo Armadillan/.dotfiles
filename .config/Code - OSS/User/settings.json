@@ -1,22 +1,26 @@
 {
-    "window.titleBarStyle": "custom",    
+    "window.titleBarStyle": "custom",
     "workbench.colorTheme": "Default Dark+",
-    "python.defaultInterpreterPath": "/home/antoni/miniconda3/envs/py310/bin/python",
     "terminal.integrated.defaultProfile.linux": "zsh",
     "terminal.integrated.inheritEnv": false,
-    "files.trimFinalNewlines": true,
+    "terminal.integrated.fontFamily": "MesloLGS NF",
+
+    "telemetry.telemetryLevel": "off",
+
+    "python.defaultInterpreterPath": "/home/antoni/miniconda3/envs/py310/bin/python",
+
     "editor.rulers": [
     80,
     ],
     "editor.overviewRulerBorder": false,
-    "terminal.integrated.fontFamily": "MesloLGS NF",
     "editor.multiCursorModifier": "ctrlCmd",
     "editor.largeFileOptimizations": false,
+
     "workbench.editorAssociations": {
         "*.txt": "default",
         "*.bin": "hexEditor.hexedit"
     },
-    "telemetry.telemetryLevel": "off",
+
     "explorer.confirmDelete": false,
     "explorer.confirmDragAndDrop": false,
 
@@ -35,5 +39,20 @@
         ]
 
     },
-    
+
+    "files.trimFinalNewlines": true,
+    "files.trimTrailingWhitespace": true,
+
+    "editor.bracketPairColorization.enabled": true,
+
+    "workbench.colorCustomizations": {
+        "editorBracketHighlight.foreground1": "#5caeef",
+        "editorBracketHighlight.foreground2": "#dfb976",
+        "editorBracketHighlight.foreground3": "#c172d9",
+        "editorBracketHighlight.foreground4": "#4fb1bc",
+        "editorBracketHighlight.foreground5": "#97c26c",
+        "editorBracketHighlight.foreground6": "#abb2c0",
+        "editorBracketHighlight.unexpectedBracket.foreground": "#db6165"
+    },
+    "terminal.integrated.enableMultiLinePasteWarning": false,
 }
