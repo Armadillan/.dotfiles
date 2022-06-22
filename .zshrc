@@ -165,6 +165,7 @@ alias flex="neofetch"
 alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 
 alias la="ls -A"
+alias lt="ls -Atr"
 alias c="clear"
 
 alias vim="nvim"
