@@ -7,7 +7,7 @@
 
     "telemetry.telemetryLevel": "off",
 
-    "python.defaultInterpreterPath": "/home/antoni/miniconda3/envs/py310/bin/python",
+    "python.defaultInterpreterPath": "/home/antoni/miniconda3/bin/python",
 
     "editor.rulers": [
     80,
@@ -33,13 +33,14 @@
                 "request": "launch",
                 "program": "${file}",
                 "console": "integratedTerminal",
-                "justMyCode": true,
+                "justMyCode": false,
                 "stopOnEntry": true,
             }
         ]
 
     },
 
+    "files.insertFinalNewline": true,
     "files.trimFinalNewlines": true,
     "files.trimTrailingWhitespace": true,
 
@@ -52,7 +53,16 @@
         "editorBracketHighlight.foreground4": "#4fb1bc",
         "editorBracketHighlight.foreground5": "#97c26c",
         "editorBracketHighlight.foreground6": "#abb2c0",
-        "editorBracketHighlight.unexpectedBracket.foreground": "#db6165"
+        "editorBracketHighlight.unexpectedBracket.foreground": "#db6165",
+
+        "editorWhitespace.foreground": "#888888",
+
     },
     "terminal.integrated.enableMultiLinePasteWarning": false,
+    "workbench.tree.renderIndentGuides": "always",
+    "editor.guides.highlightActiveIndentation": "always",
+    "editor.renderWhitespace": "selection",
+
+
+    "vscode-neovim.neovimExecutablePaths.linux": "/usr/bin/nvim",
 }
