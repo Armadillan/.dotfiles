@@ -7,16 +7,23 @@ NumLock=2
 RepeatDelay=600
 RepeatRate=25
 
+[Libinput][1133][45082][MX Anywhere 2S Mouse]
+PointerAcceleration=-0.200
+PointerAccelerationProfile=1
+
 [Libinput][1267][12584][ELAN1301:00 04F3:3128 Mouse]
 NaturalScroll=true
+PointerAcceleration=-1.000
 PointerAccelerationProfile=1
 
 [Libinput][1267][12584][ELAN1301:00 04F3:3128 Touchpad]
 ClickMethod=2
+Enabled=true
 NaturalScroll=true
 TapToClick=true
 
 [Mouse]
+X11LibInputXAccelProfileFlat=false
 XLbInptAccelProfileFlat=true
 XLbInptNaturalScroll=true
 cursorTheme=breeze_cursors

@@ -137,6 +137,7 @@ ForegroundVisited=155,89,182
 
 [General]
 BrowserApplication=firefox.desktop
+ColorSchemeHash=bcce7c1c6181c5e14e633cd8301e7a9036b67ac6
 Name=Breeze Light
 TerminalApplication=kitty
 TerminalService=kitty.desktop
@@ -164,9 +165,10 @@ Show Inline Previews=true
 Show Preview=false
 Show Speedbar=true
 Show hidden files=false
-Sort by=Name
+Sort by=Date
 Sort directories first=true
-Sort reversed=false
+Sort hidden files last=false
+Sort reversed=true
 Speedbar Width=138
 View Style=DetailTree
 

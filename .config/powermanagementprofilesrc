@@ -7,11 +7,6 @@ powerButtonAction=16
 powerDownAction=16
 triggerLidActionWhenExternalMonitorPresent=false
 
-[AC][SuspendSession]
-idleTime=600000
-suspendThenHibernate=false
-suspendType=1
-
 [Battery]
 icon=battery-060
 
@@ -59,3 +54,8 @@ triggerLidActionWhenExternalMonitorPresent=false
 idleTime=300000
 suspendThenHibernate=false
 suspendType=1
+
+[LowBattery][WirelessPowerSaving]
+btOption=1
+wifiOption=0
+wwanOption=0

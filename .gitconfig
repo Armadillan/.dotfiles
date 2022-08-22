@@ -18,3 +18,5 @@
 	gpgsign = true
 [pull]
 	rebase = false
+[branch]
+	autosetuprebase = always

@@ -1,5 +1,5 @@
 [$Version]
-update_info=kwin.upd:replace-scalein-with-scale,kwin.upd:port-minimizeanimation-effect-to-js,kwin.upd:port-scale-effect-to-js,kwin.upd:port-dimscreen-effect-to-js,kwin.upd:auto-bordersize,kwin.upd:animation-speed,kwin.upd:desktop-grid-click-behavior,kwin.upd:no-swap-encourage,kwin.upd:make-translucency-effect-disabled-by-default,kwin.upd:remove-flip-switch-effect,kwin.upd:remove-cover-switch-effect,kwin.upd:remove-cubeslide-effect,kwin.upd:remove-xrender-backend
+update_info=kwin.upd:replace-scalein-with-scale,kwin.upd:port-minimizeanimation-effect-to-js,kwin.upd:port-scale-effect-to-js,kwin.upd:port-dimscreen-effect-to-js,kwin.upd:auto-bordersize,kwin.upd:animation-speed,kwin.upd:desktop-grid-click-behavior,kwin.upd:no-swap-encourage,kwin.upd:make-translucency-effect-disabled-by-default,kwin.upd:remove-flip-switch-effect,kwin.upd:remove-cover-switch-effect,kwin.upd:remove-cubeslide-effect,kwin.upd:remove-xrender-backend,kwin.upd:overview-group-plugin-id,kwin.upd:animation-speed-cleanup
 
 [Compositing]
 GLCore=true
@@ -19,7 +19,19 @@ Color=200,51,6
 [Effect-PresentWindows]
 BorderActivateAll=9
 
+[Effect-diminactive]
+Strength=5
+
 [Effect-kwin4_effect_translucency]
+IndividualMenuConfig=true
+MoveResize=87
+PopupMenus=91
+
+[Effect-mousemark]
+Color=200,51,6
+
+[Effect-presentwindows]
+BorderActivateAll=9
 IndividualMenuConfig=true
 MoveResize=87
 PopupMenus=91
@@ -27,6 +39,8 @@ PopupMenus=91
 [NightColor]
 LatitudeAuto=59.241
 LongitudeAuto=17.9808
+Mode=Constant
+NightTemperature=3000
 
 [Plugins]
 blurEnabled=true

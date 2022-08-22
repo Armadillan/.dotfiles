@@ -182,3 +182,8 @@ alias rr="ranger"
 #professionalism!
 eval $(thefuck --alias fix)
 
+#TEMP FOR RAYS PROJECT
+alias vtk_seq="/opt/OpenFOAM/OpenFOAM-9/bin/foamSequenceVTKFiles"
+
+[[ "$TERM" == "xterm-kitty" ]] && alias ssh="kitty + kitten ssh"
+
