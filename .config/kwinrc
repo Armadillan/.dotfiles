@@ -36,6 +36,9 @@ IndividualMenuConfig=true
 MoveResize=87
 PopupMenus=91
 
+[ModifierOnlyShortcuts]
+Meta=org.kde.krunner,/App,,toggleDisplay
+
 [NightColor]
 Active=true
 LatitudeAuto=59.241
