@@ -162,7 +162,7 @@ alias hh="hitchhiker"
 alias hhc="hitchhiker_cow"
 alias flex="neofetch"
 
-alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
+alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME '
 
 alias la="ls -A"
 alias lt="ls -Atr"
@@ -183,7 +183,7 @@ alias rr="ranger"
 eval $(thefuck --alias fix)
 
 #TEMP FOR RAYS PROJECT
-alias vtk_seq="/opt/OpenFOAM/OpenFOAM-9/bin/foamSequenceVTKFiles"
+#alias vtk_seq="/opt/OpenFOAM/OpenFOAM-9/bin/foamSequenceVTKFiles"
 
 [[ "$TERM" == "xterm-kitty" ]] && alias ssh="kitty + kitten ssh"
 

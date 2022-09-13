@@ -7,7 +7,6 @@
 [credential]
 	helper = cache
 	credentialStore = gpg
-	helper = 
 	helper = /usr/local/bin/git-credential-manager-core
 
 [core]
@@ -20,3 +19,5 @@
 	rebase = false
 [branch]
 	autosetuprebase = always
+[push]
+	autoSetupRemote = true
