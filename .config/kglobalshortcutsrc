@@ -1,5 +1,6 @@
 [ActivityManager]
 _k_friendly_name=Activity Manager
+switch-to-activity-4adc3c17-cd01-4de0-b0ac-3e1385fb458c=none,none,Switch to activity "Default"
 switch-to-activity-686beef3-1a60-4bfc-b840-affe449ff24b=none,none,Switch to activity "Default"
 switch-to-activity-d580aa15-8d30-443a-a82f-9a81f64f7f6f=none,none,Switch to activity "Default"
 
@@ -14,9 +15,10 @@ _k_friendly_name=Keyboard Layout Switcher
 _k_friendly_name=Bitwarden
 _launch=Meta+P,none,Bitwarden
 
-[code.desktop]
-_k_friendly_name=code
-_launch=Meta+C,none,code
+[code-oss.desktop]
+_k_friendly_name=Code - OSS
+_launch=Meta+C,none,Code - OSS
+new-empty-window=none,none,New Empty Window
 
 [firefox.desktop]
 _k_friendly_name=Firefox
@@ -40,7 +42,7 @@ _k_friendly_name=KDE Daemon
 display=Display,Display\tMeta+P,Switch Display
 
 [khotkeys]
-_k_friendly_name=konsole_globalaccel
+_k_friendly_name=Custom Shortcuts Service
 {d03619b6-9b3c-48cc-9d9c-a2aadb485550}=none,none,Search
 
 [kitty.desktop]
@@ -232,16 +234,10 @@ stopmedia=Media Stop,Media Stop,Stop media playback
 _k_friendly_name=Dolphin
 _launch=none,Meta+E,Dolphin
 
-[org.kde.konsole.desktop]
-NewTab=none,none,Open a New Tab
-NewWindow=none,none,Open a New Window
-_k_friendly_name=Konsole
-_launch=Ctrl+Alt+T,none,Konsole
-
 [org.kde.krunner.desktop]
 RunClipboard=Alt+Shift+F2,Alt+Shift+F2,Run command on clipboard contents
 _k_friendly_name=KRunner
-_launch=Alt+Space\tAlt+F2\tSearch,Alt+Space\tAlt+F2\tSearch,KRunner
+_launch=Meta+Space\tAlt+F2\tAlt+Space\tSearch,Alt+Space\tAlt+F2\tSearch,KRunner
 
 [org.kde.plasma.emojier.desktop]
 _k_friendly_name=Emoji Selector
@@ -282,20 +278,26 @@ activate task manager entry 6=Meta+6,Meta+6,Activate Task Manager Entry 6
 activate task manager entry 7=Meta+7,Meta+7,Activate Task Manager Entry 7
 activate task manager entry 8=Meta+8,Meta+8,Activate Task Manager Entry 8
 activate task manager entry 9=Meta+9,Meta+9,Activate Task Manager Entry 9
-activate widget 26=none,none,Activate Application Launcher Widget
-activate widget 3=Alt+F1,none,Activate Application Launcher Widget
-clear-history=none,none,Clear Clipboard History
+activate widget 106=none,none,Activate Application Launcher Widget
+activate widget 110=,none,Activate Individual Core Usage Widget
+activate widget 114=none,none,Activate Memory Usage Widget
+activate widget 119=none,none,Activate Application Launcher Widget
+activate widget 139=none,none,Activate Application Launcher Widget
+activate widget 25=none,none,Activate Application Menu Widget
+activate widget 39=none,none,Activate Application Launcher Widget
+activate widget 60=Meta+Z,none,Activate Panel Widget
+clear-history=none,,Clear Clipboard History
 clipboard_action=Ctrl+Alt+X,Meta+Ctrl+X,Automatic Action Popup Menu
 cycle-panels=Meta+Alt+P,Meta+Alt+P,Move keyboard focus between panels
-cycleNextAction=none,none,Next History Item
-cyclePrevAction=none,none,Previous History Item
-edit_clipboard=none,none,Edit Contents…
+cycleNextAction=none,,Next History Item
+cyclePrevAction=none,,Previous History Item
+edit_clipboard=none,,Edit Contents…
 manage activities=Meta+Q,Meta+Q,Show Activity Switcher
 next activity=Meta+Tab,Meta+Tab,Walk through activities
 previous activity=Meta+Shift+Tab,Meta+Shift+Tab,Walk through activities (Reverse)
 repeat_action=Ctrl+Alt+R,Meta+Ctrl+R,Manually Invoke Action on Current Clipboard
 show dashboard=Meta+D\tCtrl+F12,Ctrl+F12,Show Desktop
-show-barcode=none,none,Show Barcode…
+show-barcode=none,,Show Barcode…
 show-on-mouse-pos=Meta+V,Meta+V,Open Klipper at Mouse Position
 stop current activity=none,Meta+S,Stop Current Activity
 switch to next activity=none,,Switch to Next Activity

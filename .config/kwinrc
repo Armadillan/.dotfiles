@@ -37,10 +37,11 @@ MoveResize=87
 PopupMenus=91
 
 [NightColor]
+Active=true
 LatitudeAuto=59.241
 LongitudeAuto=17.9808
 Mode=Constant
-NightTemperature=3000
+NightTemperature=2800
 
 [Plugins]
 blurEnabled=true
