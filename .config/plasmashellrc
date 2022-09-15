@@ -9,12 +9,9 @@ eDP Width 1920x1080=768
 Number of Actions=0
 
 [KFileDialog Settings]
-Recent Files[$e]=Archlinux-icon-crystal-64.svg.png,file:$HOME/Downloads/Arch-linux-logo.png,file:$HOME/Downloads/386451_arch linux_archlinux_icon.png,file:$HOME/Downloads/Archlinux-icon-crystal-64.svg.png
-Recent URLs[$e]=file:$HOME/Downloads/,file:$HOME/,file:$HOME/Documents/
+Recent Files[$e]=Archlinux-icon-crystal-64.svg.png,file:$HOME/Pictures/nasa apod/Astronomy -NASA--Waves of the Great Lacerta Nebula-Jarmo Ruuth- Telescope Live- Text- Ata Sarajedini -Florida Atlantic U.- Astronomy Minute podcast-.jpg,file:$HOME/Downloads/Arch-linux-logo.png,file:$HOME/Downloads/386451_arch linux_archlinux_icon.png,file:$HOME/Downloads/Archlinux-icon-crystal-64.svg.png
+Recent URLs[$e]=file:$HOME/Downloads/,file:$HOME/,file:$HOME/Documents/,file:$HOME/Pictures/nasa apod/
 detailViewIconSize=16
-
-[PlasmaTransientsConfig]
-PreloadWeight=34
 
 [PlasmaViews][Panel 105][Defaults]
 thickness=44
@@ -109,12 +106,12 @@ panelVisibility=2
 
 [PlasmaViews][Panel 60][Defaults]
 maxLength=1920
-minLength=374
+minLength=316
 thickness=44
 
 [PlasmaViews][Panel 60][Horizontal1920]
 maxLength=1920
-minLength=374
+minLength=316
 thickness=44
 
 [PlasmaViews][Panel 60][Vertical1080]

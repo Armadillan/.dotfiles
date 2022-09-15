@@ -137,11 +137,15 @@ DialogHeight=540
 DialogWidth=720
 
 [Containments][60][Applets][114][Configuration][SensorColors]
+memory/physical/application=219,233,61
+memory/physical/buffer=61,233,150
+memory/physical/cache=0,170,255
+memory/physical/free=233,205,61
 memory/physical/used=61,174,233
 
 [Containments][60][Applets][114][Configuration][Sensors]
-highPrioritySensorIds=["memory/physical/used"]
-lowPrioritySensorIds=["memory/physical/total"]
+highPrioritySensorIds=["memory/physical/application","memory/physical/buffer","memory/physical/cache"]
+lowPrioritySensorIds=["memory/physical/used","memory/physical/free","memory/physical/total"]
 totalSensors=["memory/physical/usedPercent"]
 
 [Containments][60][Applets][84]
@@ -212,12 +216,16 @@ plugin=touchpad
 [Containments][88][Applets][102][Configuration]
 PreloadWeight=42
 
+[Containments][88][Applets][115]
+immutability=1
+plugin=org.kde.plasma.printmanager
+
 [Containments][88][Applets][125]
 immutability=1
 plugin=org.kde.plasma.mediacontroller
 
 [Containments][88][Applets][125][Configuration]
-PreloadWeight=34
+PreloadWeight=18
 
 [Containments][88][Applets][89]
 immutability=1
@@ -243,7 +251,7 @@ immutability=1
 plugin=org.kde.plasma.volume
 
 [Containments][88][Applets][94][Configuration]
-PreloadWeight=65
+PreloadWeight=85
 
 [Containments][88][Applets][95]
 immutability=1
@@ -260,29 +268,29 @@ immutability=1
 plugin=org.kde.plasma.bluetooth
 
 [Containments][88][Applets][97][Configuration]
-PreloadWeight=65
+PreloadWeight=100
 
 [Containments][88][Applets][98]
 immutability=1
 plugin=org.kde.plasma.networkmanagement
 
 [Containments][88][Applets][98][Configuration]
-PreloadWeight=70
+PreloadWeight=90
 
 [Containments][88][Applets][99]
 immutability=1
 plugin=org.kde.plasma.battery
 
 [Containments][88][Applets][99][Configuration]
-PreloadWeight=75
+PreloadWeight=100
 
 [Containments][88][ConfigDialog]
 DialogHeight=540
 DialogWidth=720
 
 [Containments][88][General]
-extraItems=org.kde.plasma.battery,org.kde.plasma.nightcolorcontrol,org.kde.plasma.keyboardindicator,org.kde.plasma.manage-inputmethod,org.kde.plasma.volume,org.kde.plasma.notifications,org.kde.plasma.networkmanagement,org.kde.plasma.mediacontroller,org.kde.plasma.bluetooth,org.kde.kscreen,org.kde.plasma.devicenotifier,touchpad
-knownItems=org.kde.plasma.battery,org.kde.plasma.devicenotifier,org.kde.plasma.nightcolorcontrol,org.kde.plasma.clipboard,org.kde.plasma.keyboardindicator,org.kde.plasma.manage-inputmethod,org.kde.plasma.volume,org.kde.plasma.notifications,org.kde.plasma.keyboardlayout,org.kde.plasma.networkmanagement,org.kde.plasma.mediacontroller,org.kde.plasma.bluetooth
+extraItems=org.kde.plasma.battery,org.kde.plasma.nightcolorcontrol,org.kde.plasma.keyboardindicator,org.kde.plasma.manage-inputmethod,org.kde.plasma.volume,org.kde.plasma.notifications,org.kde.plasma.networkmanagement,org.kde.plasma.mediacontroller,org.kde.plasma.bluetooth,org.kde.kscreen,org.kde.plasma.devicenotifier,touchpad,org.kde.plasma.printmanager
+knownItems=org.kde.plasma.battery,org.kde.plasma.devicenotifier,org.kde.plasma.nightcolorcontrol,org.kde.plasma.clipboard,org.kde.plasma.keyboardindicator,org.kde.plasma.manage-inputmethod,org.kde.plasma.volume,org.kde.plasma.notifications,org.kde.plasma.keyboardlayout,org.kde.plasma.networkmanagement,org.kde.plasma.mediacontroller,org.kde.plasma.bluetooth,org.kde.plasma.printmanager
 shownItems=org.kde.plasma.nightcolorcontrol,org.kde.plasma.bluetooth
 
 [ScreenMapping]

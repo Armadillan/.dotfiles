@@ -30,6 +30,9 @@ PopupMenus=91
 [Effect-mousemark]
 Color=200,51,6
 
+[Effect-overview]
+BlurBackground=false
+
 [Effect-presentwindows]
 BorderActivateAll=9
 IndividualMenuConfig=true
@@ -40,7 +43,6 @@ PopupMenus=91
 Meta=org.kde.krunner,/App,,toggleDisplay
 
 [NightColor]
-Active=true
 LatitudeAuto=59.241
 LongitudeAuto=17.9808
 Mode=Constant
