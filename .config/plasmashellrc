@@ -13,6 +13,9 @@ Recent Files[$e]=Archlinux-icon-crystal-64.svg.png,file:$HOME/Pictures/nasa apod
 Recent URLs[$e]=file:$HOME/Downloads/,file:$HOME/,file:$HOME/Documents/,file:$HOME/Pictures/nasa apod/
 detailViewIconSize=16
 
+[PlasmaTransientsConfig]
+PreloadWeight=42
+
 [PlasmaViews][Panel 105][Defaults]
 thickness=44
 

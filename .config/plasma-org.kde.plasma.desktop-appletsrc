@@ -153,7 +153,7 @@ immutability=1
 plugin=org.kde.plasma.digitalclock
 
 [Containments][60][Applets][84][Configuration]
-PreloadWeight=80
+PreloadWeight=100
 
 [Containments][60][Applets][84][Configuration][Appearance]
 fontFamily=MesloLGS NF
@@ -225,7 +225,7 @@ immutability=1
 plugin=org.kde.plasma.mediacontroller
 
 [Containments][88][Applets][125][Configuration]
-PreloadWeight=18
+PreloadWeight=2
 
 [Containments][88][Applets][89]
 immutability=1
