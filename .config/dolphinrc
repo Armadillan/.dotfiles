@@ -15,4 +15,4 @@ ToolBarsMovable=Disabled
 
 [Open-with settings]
 CompletionMode=1
-History=vim
+History=firef,neo,vim

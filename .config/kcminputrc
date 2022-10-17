@@ -25,4 +25,4 @@ TapToClick=true
 [Mouse]
 X11LibInputXAccelProfileFlat=false
 XLbInptAccelProfileFlat=true
-XLbInptNaturalScroll=true
+XLbInptNaturalScroll=false
