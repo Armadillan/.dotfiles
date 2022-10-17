@@ -94,10 +94,10 @@ plugins=(
   copypath
   copyfile
   git-escape-magic
-  )
+  conda-zsh-completion
+)
 
 source $ZSH/oh-my-zsh.sh
-
 
 #source /usr/share/doc/pkgfile/command-not-found.zsh
 
@@ -185,5 +185,6 @@ eval $(thefuck --alias fix)
 #TEMP FOR RAYS PROJECT
 #alias vtk_seq="/opt/OpenFOAM/OpenFOAM-9/bin/foamSequenceVTKFiles"
 
+# use ssh kitten
 [[ "$TERM" == "xterm-kitty" ]] && alias ssh="kitty + kitten ssh"
 
