@@ -1,11 +1,19 @@
 [AC]
 icon=battery-charging
 
+[AC][DPMSControl]
+idleTime=600
+
 [AC][HandleButtonEvents]
-lidAction=1
+lidAction=32
 powerButtonAction=16
 powerDownAction=16
 triggerLidActionWhenExternalMonitorPresent=false
+
+[AC][SuspendSession]
+idleTime=300000
+suspendThenHibernate=false
+suspendType=32
 
 [Activities][4adc3c17-cd01-4de0-b0ac-3e1385fb458c]
 mode=None
@@ -24,10 +32,15 @@ lockBeforeTurnOff=0
 idleTime=120000
 
 [Battery][HandleButtonEvents]
-lidAction=1
+lidAction=32
 powerButtonAction=16
 powerDownAction=16
 triggerLidActionWhenExternalMonitorPresent=false
+
+[Battery][SuspendSession]
+idleTime=300000
+suspendThenHibernate=false
+suspendType=32
 
 [LowBattery]
 icon=battery-low
@@ -43,10 +56,15 @@ lockBeforeTurnOff=0
 idleTime=60000
 
 [LowBattery][HandleButtonEvents]
-lidAction=1
+lidAction=32
 powerButtonAction=16
 powerDownAction=16
 triggerLidActionWhenExternalMonitorPresent=false
+
+[LowBattery][SuspendSession]
+idleTime=300000
+suspendThenHibernate=false
+suspendType=32
 
 [LowBattery][WirelessPowerSaving]
 btOption=1

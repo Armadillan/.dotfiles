@@ -209,6 +209,8 @@ immutability=1
 lastScreen=0
 location=4
 plugin=org.kde.plasma.private.systemtray
+popupHeight=432
+popupWidth=432
 wallpaperplugin=org.kde.image
 
 [Containments][88][Applets][100]
@@ -230,7 +232,7 @@ immutability=1
 plugin=org.kde.plasma.printmanager
 
 [Containments][88][Applets][115][Configuration]
-PreloadWeight=55
+PreloadWeight=100
 
 [Containments][88][Applets][125]
 immutability=1
@@ -246,6 +248,9 @@ DialogWidth=720
 [Containments][88][Applets][89]
 immutability=1
 plugin=org.kde.plasma.devicenotifier
+
+[Containments][88][Applets][89][Configuration]
+PreloadWeight=80
 
 [Containments][88][Applets][90]
 immutability=1
@@ -281,7 +286,7 @@ immutability=1
 plugin=org.kde.plasma.notifications
 
 [Containments][88][Applets][95][Configuration]
-PreloadWeight=75
+PreloadWeight=80
 
 [Containments][88][Applets][96][Configuration]
 PreloadWeight=42
