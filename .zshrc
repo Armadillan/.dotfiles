@@ -164,6 +164,11 @@ alias flex="neofetch"
 
 alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME '
 
+alias ls="lsd "
+
+alias l="ls -l"
+alias lla="ls -la"
+
 alias la="ls -A"
 alias lt="ls -Atr"
 alias c="clear"
@@ -188,3 +193,5 @@ eval $(thefuck --alias fix)
 # use ssh kitten
 [[ "$TERM" == "xterm-kitty" ]] && alias ssh="kitty + kitten ssh"
 
+compdef dotfiles='git'
+setopt complete_aliases
